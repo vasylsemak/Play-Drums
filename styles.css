@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom right,
+    #283149,
+    #be8abf,
+    #584153,
+    #283149
+  );
+  /* background-color: #283149; */
+}
+
+h1 {
+  font-size: 5rem;
+  color: #332630;
+  font-family: 'Arvo', cursive;
+  text-shadow: 3px 0 #a8004c;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+}
+
+.a {
+  background: url('images/drum1.png');
+}
+.s {
+  background: url('images/drum2.png');
+}
+.d {
+  background: url('images/drum3.png');
+}
+.f {
+  background: url('images/drum4.png');
+}
+.j {
+  background: url('images/snare.png');
+}
+.k {
+  background: url('images/kick.png');
+}
+.l {
+  background: url('images/crash.png');
+}
+
+.set {
+  padding-bottom: 10%;
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #fa0875;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
