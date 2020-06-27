@@ -1,0 +1,20 @@
+{
+  "name": "Play-Drums",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasylsemak/Play-Drums.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasylsemak/Play-Drums/issues"
+  },
+  "homepage": "https://github.com/vasylsemak/Play-Drums#readme"
+}
