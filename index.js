@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 
 //    Detect Button Press;
-const allButtons = document.querySelectorAll('button');
+let allButtons = document.querySelectorAll('button');
 
 allButtons.forEach((button) => {
   button.addEventListener('click', function () {
